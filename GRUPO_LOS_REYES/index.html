@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grupo Los Reyes - Construcción y Servicios</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="img/DORADO_SIN_FONDO.png" type="image/png"> <!-- Favicon -->
+</head>
+<body>
+    <header>
+        <div class="container header-container"> <!-- Añadir clase específica al contenedor del header -->
+            <a href="index.html" class="logo-area"> <!-- Enlace que agrupa logo y texto -->
+                <img src="img/DORADO_SIN_FONDO.png" alt="Logo Grupo Los Reyes" id="logo">
+                <h1 class="header-title">Grupo Los Reyes</h1> <!-- Añadir clase al H1 -->
+            </a>
+            <nav>
+                <ul>
+                    <li><a href="#empresa">Empresa</a></li>
+                    <li><a href="#servicios">Servicios</a></li>
+                    <li><a href="#faq">Preguntas Frecuentes</a></li>
+                    <li><a href="#contacto">Contacto</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="hero">
+        <!-- Video Background -->
+        <video autoplay muted loop playsinline id="hero-video">
+            <source src="img/video1.mp4" type="video/mp4">
+            Tu navegador no soporta videos HTML5. Considera actualizarlo.
+        </video>
+        <div class="container hero-content"> <!-- Added class to content container -->
+            <h2>Construcción, Consultoría e Infraestructura Inteligente</h2>
+            <p>Construimos valor, creamos un futuro conectado.</p>
+        </div>
+    </section>
+
+    <section id="empresa" class="fade-in"> <!-- Add fade-in animation class -->
+        <div class="container">
+            <div class="empresa-texto slide-in-left"> <!-- Add slide-in animation class -->
+                <h2>Nuestra Empresa</h2>
+                <p><strong>Grupo Los Reyes</strong>, ubicados en Arequipa, Perú, ofrecemos Construcción de calidad, Consultoría experta y la Infraestructura Inteligente que prepara sus propiedades para el mañana.</p>
+                <ul>
+                    <li><strong>Dirección:</strong> Arequipa, Perú</li>
+                    <li><strong>Teléfono:</strong> +51 987 118 188</li>
+                    <li><strong>Correo:</strong> <a href="mailto:grupolosreyes.cr@gmail.com">grupolosreyes.cr@gmail.com</a></li>
+                    <li><strong>Web:</strong> <a href="http://grupolosreyes.com" target="_blank">grupolosreyes.com</a></li>
+                </ul>
+            </div>
+            <!-- SUGERENCIA VISUAL: Considerar añadir aquí una imagen más pequeña y conceptual -->
+            <!-- (ej. <img src="img/detalle-empresa.jpg" alt="Detalle conceptual Grupo Los Reyes">) -->
+            <!-- Opcionalmente, reemplazar la imagen actual si se tiene una más representativa del equipo/proyectos. -->
+            <div class="empresa-imagen slide-in-right"> <!-- Add slide-in animation class -->
+                <img src="img/imagen3.png" alt="Imagen representativa de Grupo Los Reyes">
+            </div>
+        </div>
+    </section>
+
+    <!-- SUGERENCIA VISUAL: Considerar añadir aquí un divisor visual -->
+    <!-- Podría ser una imagen de ancho completo (ej. <div class="section-divider"><img src="img/divider1.jpg" alt="Detalle constructivo"></div>) -->
+    <!-- con estilos CSS para altura, background-size: cover, y quizás efecto parallax -->
+
+    <section id="servicios" class="fade-in"> <!-- Add fade-in animation class -->
+        <div class="container">
+            <h2>Nuestras Líneas de Negocio</h2>
+            <div class="servicios-grid">
+                <div class="servicio-item slide-in-bottom"> <!-- Add slide-in animation class -->
+                    <img src="img/servicio1.png" alt="Imagen Servicio Obra Civil" class="servicio-imagen"> <!-- Placeholder Imagen Servicio 1 -->
+                    <h3>1. Obra Civil</h3>
+                    <p>Desarrollamos proyectos de edificación residencial, comercial e industrial, asegurando el cumplimiento del Reglamento Nacional de Edificaciones (RNE).</p>
+                    <ul>
+                        <li>Diseño y construcción de edificaciones resilientes y funcionales.</li>
+                        <li>Remodelaciones, ampliaciones y rehabilitaciones integrales.</li>
+                        <li>Gestión Integral de Proyectos de Construcción.</li>
+                    </ul>
+                </div>
+                <div class="servicio-item slide-in-bottom"> <!-- Add slide-in animation class -->
+                    <img src="img/servicio2.png" alt="Imagen Servicio Consultoría" class="servicio-imagen"> <!-- Placeholder Imagen Servicio 2 -->
+                    <h3>2. Consultoría</h3>
+                    <p>Soporte técnico integral en estudios, expedientes, licencias y supervisión de obras.</p>
+                    <ul>
+                        <li>Elaboración de Expedientes Técnicos completos (Memoria Descriptiva, Especificaciones Técnicas, Planos por especialidad, Metrados, Presupuesto) conforme al RNE y normativa aplicable.</li>
+                        <li>Gestión de Licencias de Habilitación Urbana y Edificación ante municipalidades.</li>
+                        <li>Supervisión Técnica de Obras: Control técnico, económico y administrativo para garantizar la correcta ejecución según Expediente Técnico y normativa vigente.</li>
+                    </ul>
+                </div>
+                <div class="servicio-item slide-in-bottom"> <!-- Add slide-in animation class -->
+                    <img src="img/servicio3.jpg" alt="Imagen Servicio Saneamiento Físico Legal" class="servicio-imagen"> <!-- Placeholder Imagen Servicio 3 -->
+                    <h3>3. Saneamiento Físico Legal</h3>
+                    <p>Formalice su propiedad y asegure su valor. Especializados en trámites de Saneamiento Físico Legal ante SUNARP para predios urbanos y rurales.</p>
+                    <ul>
+                        <li>Declaratoria de Fábrica: Inscripción de construcciones nuevas o existentes</li>
+                        <li>Independización de Unidades Inmobiliarias: Creación de partidas registrales para departamentos, locales, aires, etc.</li>
+                        <li>Otros Trámites Registrales: Rectificación de áreas/linderos, Acumulaciones, Subdivisiones.</li>
+                        <li>Levantamiento topográfico y planos.</li>
+                    </ul>
+                </div>
+                <div class="servicio-item slide-in-bottom"> <!-- Add slide-in animation class -->
+                    <img src="img/servicio4.jpg" alt="Imagen Servicio Suministro de Materiales" class="servicio-imagen"> <!-- Placeholder Imagen Servicio 4 -->
+                    <h3>4. Suministro de Materiales para Construcción</h3>
+                    <p>Conectamos su obra con nuestra amplia red de proveedores para ofrecerle los mejores precios en materiales de construcción y equipos menores.</p>
+                    <ul>
+                        <li>Cotización y suministro de una gran variedad de materiales (agregados, ferretería, acabados, etc.).</li>
+                        <li>Acceso a precios competitivos gracias a nuestra extensa cartera de proveedores aliados.</li>
+                        <li>Equipos y herramientas menores para construcción.</li>
+                        <li>Coordinación del transporte y entrega de los materiales directo a su proyecto.</li>
+                    </ul>
+                </div>
+                <div class="servicio-item slide-in-bottom"> <!-- Add slide-in animation class -->
+                    <img src="img/servicio5.jpg" alt="Imagen Servicio Infraestructura Inteligente" class="servicio-imagen"> <!-- Placeholder Imagen Servicio 5 -->
+                    <h3>5. Infraestructura para Hogares y Edificios Inteligentes</h3>
+                    <p>Construimos viviendas y edificaciones para el futuro tecnológico. Instalamos la infraestructura esencial para conectividad avanzada, automatización e integración con sistemas IoT y de IA.</p>
+                    <ul>
+                        <li>Redes Preparadas para IoT: Diseño e instalación de canalizaciones y cableado estructurado para facilitar la futura implementación de redes de sensores inteligentes en su propiedad.</li>
+                        <li>Preparación para Automatización: Diseño e instalación de la base para sistemas avanzados de control y gestión (BMS/BAS).</li>
+                        <li>Ventaja Clave: Instalar esta infraestructura durante la construcción es más eficiente, económico y permite una integración tecnológica superior comparado con una adecuación posterior.</li>
+                    </ul>
+                    <!-- El comentario de sugerencia anterior ya no es necesario aquí -->
+                </div>
+                <div class="servicio-item slide-in-bottom"> <!-- Add slide-in animation class -->
+                    <img src="img/servicio6.jpg" alt="Imagen Servicio Compra y Venta de Inmuebles" class="servicio-imagen"> <!-- Placeholder Imagen Servicio 6 -->
+                    <h3>6. Compra y venta de Inmuebles</h3>
+                    <p>Gestionamos activamente la compraventa de casas, terrenos urbanos y agrícolas en toda la región de Arequipa. Facilitamos todo el proceso de compraventa.</p>
+                    <ul>
+                        <li>Adquisición y venta de terrenos/propiedades.</LI>
+                        <li>Asesoramiento durante todo el proceso de la transacción (compra o venta).</li>
+                        <li>Soporte en la coordinación de trámites legales y notariales.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="faq" class="container fade-in"> <!-- Add fade-in animation class -->
+        <h2>Preguntas Frecuentes</h2>
+        <details class="slide-in-bottom"> <!-- Add slide-in animation class -->
+            <summary>1. ¿Por qué es importante el Saneamiento Físico Legal (SFL) para mi propiedad?</summary>
+            <p> El SFL es fundamental para que su propiedad (casa, terreno, etc.) esté correctamente inscrita en SUNARP, reflejando fielmente su realidad física y legal. Esto le otorga seguridad jurídica sobre su bien, incrementa su valor comercial, facilita enormemente futuras ventas, hipotecas o herencias, y es indispensable para trámites como la independización de departamentos o la obtención de ciertas licencias. En Grupo Los Reyes, somos expertos en gestionar estos procesos, incluyendo Declaratorias de Fábrica (Ley 27157/29090) e Independizaciones.</p>
+        </details>
+        <details class="slide-in-bottom"> <!-- Add slide-in animation class -->
+            <summary>2. ¿Qué ventajas reales obtengo al instalar la "Infraestructura Inteligente" durante la construcción con ustedes?</summary>
+            <p>La principal ventaja es preparar su casa o edificio para el futuro tecnológico de forma eficiente y económica. Instalar las bases (canalizaciones, cableado estructurado, preparación para sistemas de control BMS/BAS) durante la obra es mucho menos costoso e invasivo que hacerlo después (retrofit). Esto permite una integración tecnológica superior, facilita la adopción futura de sistemas IoT y automatización, y aumenta el valor y atractivo de su propiedad en el mercado a largo plazo.</p>
+        </details>
+        <details class="slide-in-bottom"> <!-- Add slide-in animation class -->
+            <summary>3. ¿Qué prácticas utiliza Grupo Los Reyes para asegurar la eficiencia y ofrecer presupuestos justos?</summary>
+            <p>Nuestro compromiso es con la eficiencia y la transparencia en los costos. Utilizamos metodologías modernas como BIM (Building Information Modeling) y principios de Lean Construction, apoyadas por software avanzado, para planificar y gestionar sus proyectos. Esto nos permite optimizar diseños, detectar interferencias antes de construir, reducir desperdicios y minimizar errores costosos en obra. Como resultado, le ofrecemos presupuestos justos y detallados, basados en esta planificación rigurosa, evitando costos inflados o innecesarios que lamentablemente a veces se encuentran en el sector por malas prácticas.</p>
+        </details>
+        <details class="slide-in-bottom"> <!-- Add slide-in animation class -->
+            <summary>4. ¿Qué incluye exactamente su servicio de "Gestión Integral de Proyectos de Construcción"?</summary>
+            <p>Este servicio abarca la dirección y administración completa de su proyecto, desde la planificación y diseño inicial, pasando por la ejecución misma de la obra, hasta la entrega final y cierre. Incluye la gestión de todas las áreas clave (alcance, cronograma, costos, calidad, riesgos, adquisiciones -aprovechando nuestro Suministro de Materiales-, comunicaciones, interesados) y la supervisión técnica continua. Aplicamos metodologías y buenas prácticas reconocidas, como las del PMBOK® Guide, para asegurar que su proyecto se complete exitosamente, cumpliendo sus objetivos y plazos acordados.</p>
+        </details>
+        <details class="slide-in-bottom"> <!-- Add slide-in animation class -->
+            <summary>5. ¿Cómo funciona exactamente su servicio de "Suministro de Materiales" y cómo me ayuda a ahorrar?</summary>
+            <p>Actuamos como su intermediario estratégico. En lugar de que usted contacte a múltiples proveedores, nosotros aprovechamos nuestra amplia red de proveedores aliados en Arequipa para cotizar y conseguir los materiales de construcción y equipos menores que necesita. Gracias a nuestros volúmenes y relaciones, accedemos a precios muy competitivos, optimizando directamente sus costos de adquisición. Además, coordinamos la logística de entrega en obra, ahorrándole tiempo y gestión.</p>
+        </details>
+    </section>
+
+    <!-- SUGERENCIA VISUAL: Considerar añadir aquí un divisor visual -->
+    <!-- Podría ser otra imagen de ancho completo o un bloque con color de fondo sutil -->
+
+    <section id="contacto" class="container fade-in"> <!-- Add fade-in animation class -->
+        <!-- SUGERENCIA VISUAL: Considerar añadir una imagen de fondo sutil aquí -->
+        <!-- (ej. background-image: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8)), url('img/fondo-contacto.jpg');) -->
+        <h2>Contacto</h2>
+        <p>Si tienes alguna pregunta o deseas solicitar un presupuesto, no dudes en contactarnos:</p>
+        <ul>
+            <li><strong>Teléfono:</strong> <a href="tel:+51987118188">+51 987 118 188</a></li>
+            <li><strong>Correo Electrónico:</strong> <a href="mailto:grupolosreyes.cr@gmail.com">grupolosreyes.cr@gmail.com</a></li>
+            <li><strong>Dirección:</strong> Arequipa, Perú</li>
+        </ul>
+        <p>También puedes visitar nuestro sitio web: <a href="http://grupolosreyes.com" target="_blank">grupolosreyes.com</a></p>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>Gracias por elegir <strong>Grupo Los Reyes</strong>. Estamos comprometidos con brindar servicios de calidad que superen tus expectativas.</p>
+            <p>&copy; 2025 Grupo Los Reyes. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+
+    <script src="java.js"></script> <!-- Corregido nombre de archivo JS -->
+</body>
+</html>
