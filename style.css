@@ -59,9 +59,9 @@ h2 { /* Section Titles */
     padding-top: 2rem; /* More space above */
     margin-bottom: 2.5rem; /* More space below */
     position: relative; /* For the underline */
-    display: inline-block; /* To contain the underline */
-    left: 50%;
-    transform: translateX(-50%);
+    display: block; /* Change to block for simpler centering */
+    /* left: 50%; Removed */
+    /* transform: translateX(-50%); Removed */
     padding-bottom: 0.5rem; /* Space for underline */
     color: var(--text-light);
 }
